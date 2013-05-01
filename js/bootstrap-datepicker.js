@@ -763,17 +763,17 @@
 		modes: [
 			{
 				clsName: 'days',
-				navFnc: 'Month',
+				navFnc: 'UTCMonth',
 				navStep: 1
 			},
 			{
 				clsName: 'months',
-				navFnc: 'FullYear',
+				navFnc: 'UTCFullYear',
 				navStep: 1
 			},
 			{
 				clsName: 'years',
-				navFnc: 'FullYear',
+				navFnc: 'UTCFullYear',
 				navStep: 10
 		}],
 		isLeapYear: function (year) {
